@@ -1,3 +1,72 @@
+/*CSS GENERAL*/
+*{
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 5px;
+    font-family: sans-serif;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: top;
+}
+/*CSS HEADER*/
+header{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+}
+header>h1{
+    margin-left: 5%;
+    font-size: 300%;
+    text-shadow: 5px 5px 5px #505050;
+}
+/*CSS ASIDE*/
+aside{
+    float: left;
+    border: 1px black solid;
+    width: 17%;
+    text-align: center;
+    border-collapse: collapse;
+    margin-left: 10%;
+}
+aside>div{
+    border: 1px solid black;
+    padding: 0.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+aside>:nth-child(4){
+    margin-bottom: 5%;
+}
+
+/*CSS DEL MAIN*/
 main>div{
     border: 1px solid black;
+    width: 60%;
+    margin-right: 10%;
+    float: right;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+main>div>*{
+    margin-left: 5%;
+}
+main>:nth-child(1){
+    margin-top: 0%;
+}
+/*CSS FOOTER*/
+footer{
+    clear: both;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    border: 1px solid black
+
 }
